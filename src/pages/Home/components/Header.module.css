@@ -1,0 +1,234 @@
+.main {
+  width: 100vw;
+  height: 400px;
+
+  background-image: url("../../../assets/Home/hero.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 400px;
+  display: flex;
+}
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: c;
+  width: 550px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.hero_text h1 {
+  font-family: "Nunito";
+  font-size: 50px;
+  color: #6c6c6c;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.hero_text span {
+  font-size: 55px;
+  color: #42c0f6;
+  font-family: "Nunito";
+  font-weight: 900;
+}
+
+.hero_text h5 {
+  font-size: 20px;
+  color: #6c6c6c;
+  font-weight: 700;
+  margin-top: 10px;
+  width: 450px;
+}
+
+.links {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.btn_sign {
+  width: 175px;
+  height: 35px;
+  background-color: #f1187a;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 20px;
+}
+.sign_up_btn_div {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+.sign_up_btn_div p {
+  font-size: 11px;
+  color: #707070;
+  width: 170px;
+}
+
+.btn_learn {
+  width: 175px;
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  color: grey;
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 60px;
+  border: #42c0f6 3px solid;
+}
+
+@media (max-width: 1026px) {
+  .main {
+    width: 100vw;
+    height: 400px;
+  }
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 80px;
+  }
+  .hero_text h1 {
+    font-size: 30px;
+  }
+  .hero_text span {
+    font-size: 40px;
+  }
+  .hero_text h5 {
+    font-size: 15px;
+  }
+  .links {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .btn_sign {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .btn_learn {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 769px) {
+  .main {
+    width: 100vw;
+    height: 300px;
+  }
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .hero_text h1 {
+    font-size: 24px;
+  }
+  .hero_text span {
+    font-size: 28px;
+  }
+  .hero_text h5 {
+    font-size: 12px;
+  }
+  .links {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .btn_sign {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .btn_learn {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .sign_up_btn_div p {
+    font-size: 8px;
+    color: #707070;
+    width: 110px;
+  }
+}
+
+@media (max-width: 426px) {
+  .main {
+    max-width: 100vw;
+    height: 100%;
+    background-image: none;
+    background-color: #efeff1;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+  }
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 0px;
+  }
+  .hero_text h1 {
+    font-size: 20px;
+  }
+  .hero_text span {
+    font-size: 22px;
+  }
+  .hero_text h5 {
+    font-size: 14px;
+    width: 90%;
+  }
+  .links {
+    display: flex;
+    flex-direction: flex-start;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .btn_sign {
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .btn_learn {
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .sign_up_btn_div p {
+    font-size: 8px;
+    color: #707070;
+    width: 140px;
+  }
+}
+@media (max-width: 321px) {
+  .btn_sign {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .btn_learn {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+}

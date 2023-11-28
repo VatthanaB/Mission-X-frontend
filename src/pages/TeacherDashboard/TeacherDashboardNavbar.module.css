@@ -1,0 +1,161 @@
+.ul {
+  list-style-type: none;
+  margin: 0;
+
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+}
+.li button {
+  width: 200px;
+  height: 35px;
+  color: white;
+
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+  font-family: "nunito";
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+.button_help {
+  background-color: #f1187a;
+  margin-left: 690px !important;
+}
+.button_more {
+  background-color: #43c0f6;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.level_up_img {
+  height: 50 px;
+  width: 174px;
+  float: left;
+}
+
+.nav_link li {
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+
+  /* padding-top: 20px; */
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.flags img {
+  width: 25px;
+  height: 10px;
+
+  margin: 0 0 20px 10px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+}
+.register p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+.register p:hover {
+  cursor: pointer;
+}
+.avatar_img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 0px;
+}
+
+@media (max-width: 1026px) {
+  .nav_link li {
+    margin: 0 20px;
+  }
+  .flags {
+    padding-left: 0;
+  }
+  .register {
+    padding-right: 0;
+  }
+  .avatar_img {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav_link li {
+    margin: 0 10px;
+  }
+  .flags {
+    padding-left: 0;
+  }
+  .register {
+    padding-right: 0;
+  }
+  .avatar_img {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ul {
+    min-width: 100vw;
+  }
+  .level_up_img {
+    height: 40px;
+    width: 174px;
+  }
+  .nav_link li {
+    margin: 0 5px;
+    font-size: 15px;
+  }
+  .flags {
+    padding-left: 0;
+  }
+  .register {
+    padding-right: 0;
+    font-size: 14px;
+  }
+  .avatar_img {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 376px) {
+  .nav_link li {
+    margin: 0;
+    font-size: 12px;
+  }
+  .flags {
+    padding-left: 10px;
+  }
+  .register {
+    padding-right: 0;
+    font-size: 12px;
+  }
+  .avatar_img {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,133 @@
+.background {
+  background-color: #b2e4fa;
+  height: 500px;
+}
+
+.main_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70%;
+  padding-top: 100px;
+
+  margin: 0 auto 0;
+}
+.main_div h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #6c6c6c;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "nunito";
+}
+
+.main_div p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #6c6c6c;
+
+  margin-bottom: 20px;
+}
+.footer_col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+
+.footer_col_special {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer_col_special p {
+  max-width: 500px;
+  font-weight: 600;
+}
+
+@media (max-width: 769px) {
+  .background {
+    height: fit-content;
+  }
+  .main_div {
+    width: 80%;
+    padding-top: 50px;
+  }
+  .main_div h1 {
+    font-size: 16px;
+  }
+
+  .main_div p {
+    font-size: 14px;
+  }
+  .footer_col_special p {
+    max-width: 250px;
+
+    font-size: 12px;
+  }
+}
+@media (max-width: 426px) {
+  .main_div {
+    width: 100%;
+    padding-top: 20px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .main_div h1 {
+    font-size: 10px;
+    font-weight: 800;
+
+    margin-bottom: 10px;
+
+    margin-right: 0;
+  }
+
+  .main_div p {
+    font-size: 8px;
+
+    margin-right: 0;
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+  }
+  .footer_col {
+    flex-direction: row;
+
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .footer_col_special {
+    margin: 0;
+    flex-direction: row;
+
+    width: 100%;
+    padding-left: 10px;
+  }
+  .footer_col_special p {
+    max-width: 300px;
+
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 376px) {
+  .main_div p {
+    font-size: 7px;
+    font-weight: 700;
+    color: #6c6c6c;
+    margin-right: 0;
+    margin-left: 10px;
+
+    margin-bottom: 10px;
+  }
+  .footer_col_special p {
+    max-width: 200px;
+  }
+}

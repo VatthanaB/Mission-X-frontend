@@ -1,0 +1,165 @@
+.active {
+  background-color: #43c0f6 !important;
+  color: white !important;
+}
+.main_top_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  padding-left: 335px;
+  margin-top: 50px;
+  color: #707070;
+}
+.main_top_div h1 {
+  font-family: "nunito";
+  font-weight: 800;
+  font-size: 40px;
+}
+.main_top_div p {
+  font-size: 20px;
+  font-family: "nunito";
+  font-weight: 800;
+
+  margin-top: 10px;
+}
+
+.main_bottom_div {
+  display: flex;
+  margin: 50px 100px;
+  font-family: "nunito";
+  font-weight: 800;
+}
+
+.radio_button_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio_button_ind_div {
+  color: #707070;
+  width: 180px;
+}
+.radio_button_ind_div h2 {
+  font-family: "nunito";
+  font-weight: 800;
+  font-size: 18px;
+  margin: 5px 0;
+}
+.radio_button_ind_div label {
+  font-family: "nunito";
+  font-weight: 700;
+  font-size: 16px;
+}
+.radio_button {
+  display: flex;
+  flex-direction: column;
+
+  color: #707070;
+}
+.radio_button_ind {
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+}
+.radio_button input {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.project_div {
+  width: 100%;
+}
+
+.button_selector_div {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.button_selector_left_div button {
+  width: 150px;
+  height: 35px;
+  background-color: white;
+  color: #707070;
+  border: none;
+  border-radius: 5px;
+  font-family: "nunito";
+  font-weight: 800;
+
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.button_middle {
+  border-radius: 0 !important;
+}
+
+.button_selector_right_div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "nunito";
+  font-weight: 800;
+}
+.button_selector_right_div h5 {
+  margin-right: 10px;
+}
+.button_selector_right_div button {
+  font-family: "nunito";
+  font-weight: 800;
+  color: #707070;
+  width: 50px;
+  background-color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.grid_project_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "nunito";
+  font-weight: 800;
+  color: #707070;
+}
+
+.project_card_bottom_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project_card_bottom_div h3 {
+  font-size: 20px;
+  font-family: "nunito";
+  font-weight: 800;
+  color: #707070;
+}
+
+.project_card_bottom_div p {
+  font-size: 16px;
+  font-family: "nunito";
+  font-weight: 700;
+  color: #707070;
+}
+.project_card_bottom_span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

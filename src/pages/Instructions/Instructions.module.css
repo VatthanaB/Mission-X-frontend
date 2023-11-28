@@ -1,0 +1,30 @@
+.main_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+
+  color: rgb(19, 17, 17);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 0 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.images_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}

@@ -1,0 +1,82 @@
+.left_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #43c0f6;
+  padding-top: 30px;
+  width: 350px;
+}
+.left_menu img {
+  width: 25px;
+  height: 25px;
+}
+
+.profile_picture_left_menu {
+  width: 80px !important;
+  height: 80px !important;
+  margin-bottom: 30px;
+}
+
+.left_menu button {
+  min-width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.left_menu span {
+  margin-right: 10px;
+}
+
+.button_is_clicked {
+  background-color: #b2e4fa !important;
+  color: #707070 !important;
+}
+
+/* ARROW BUTTON  */
+.move_arrow {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.arrow_img_div {
+  margin-top: 50px;
+  background-color: #b2e4fa;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.arrow_img_div img {
+  width: 28px;
+  height: 48px;
+}
+
+/* BOTTOM ICONS  */
+.bottom_icons_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 100%;
+}
+.bottom_icons_div img {
+  width: 12px;
+  height: 12px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 10px;
+  color: white;
+}
+.icons:hover {
+  cursor: pointer;
+}
